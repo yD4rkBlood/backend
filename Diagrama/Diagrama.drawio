@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net" modified="2023-08-25T16:50:57.506Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="lk7LjNPzbQocgG--Z9ze" version="21.6.9" type="device">
+  <diagram name="Page-1" id="HcWbVflDOAbp3vxymPhq">
+    <mxGraphModel dx="1167" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ol0N11EWH7k04KDD5P7E-1" value="&lt;h2&gt;Harpia Brasileira&lt;/h2&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="380.93" height="428" as="geometry" />
+        </mxCell>
+        <mxCell id="ol0N11EWH7k04KDD5P7E-2" value="&lt;h2&gt;+Nacionalidade: String&lt;br&gt;+Fisionomia: String&lt;br&gt;+Espécie: String&lt;br&gt;+Habitat: String&lt;br&gt;+Alimentação: String&lt;br&gt;+Plumagem: String&lt;br&gt;+Comportamento: String&lt;br&gt;+Idade: Int&lt;br&gt;+Imporância Ecológica: String&lt;br&gt;+Extinção: Bool&lt;br&gt;+Tamanho: Decimal&lt;br&gt;+Peso: Decimal&lt;br&gt;+Ancestrais: String&lt;br&gt;+Visão: String&lt;br&gt;+Velocidade: Decimal&lt;/h2&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;" vertex="1" parent="ol0N11EWH7k04KDD5P7E-1">
+          <mxGeometry y="60" width="380.93" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ol0N11EWH7k04KDD5P7E-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ol0N11EWH7k04KDD5P7E-1">
+          <mxGeometry y="420" width="380.93" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ol0N11EWH7k04KDD5P7E-4" value="&lt;h2&gt;+Voar(): void&lt;br&gt;+Caçar(): void&lt;br&gt;+Agarrar(): void&lt;br&gt;+Dormir(): void&lt;br&gt;+Camuflar(): void&lt;br&gt;+Cantar(): void&lt;br&gt;+Alimentar(): void&lt;/h2&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="360" y="540" width="380" height="198" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
