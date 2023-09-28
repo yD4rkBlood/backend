@@ -1,0 +1,20 @@
+<div class="text-center">
+
+    <button class="btn btn-dark">Click on the button</button>
+
+    @{
+        string nome = "Caio";
+    }
+
+    <h1 class="mt-3">Ola, @nome  </h1>
+    <p class="mt-3">Hoje é @DateTime.Now.ToString("dd/MM/yyyy")</p>
+
+    @{
+        bool showMessage = true;
+        if (showMessage == true)
+        {
+            <p>Esta é uma mensagem que entrou no if</p>
+        }
+    }
+
+</div>
