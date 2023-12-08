@@ -1,0 +1,34 @@
+@model IEnumerable<_19_CRUD_BD.Models.Jogo>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="text-center">Games e Jogos</h1>
+
+<p class="text-center">
+    <a asp-action="Create" class="btn border border-2 border-black fs-6">Criar Novo Jogo</a>
+</p>
+
+<div class="row d-flex flex-wrap">
+    @foreach (var item in Model)
+    {
+        <div class="col-12 col-lg-3">
+            <div class="card ">
+                <img class="card-img-top" src="@Html.DisplayFor(modelItem => item.Imagem)" alt="Imagem de capa do card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.Nome)</h5>
+                    <p class="card-text">@Html.DisplayFor(modelItem => item.Descricao)</p>
+                    <tr>
+                        <td>
+                            <a asp-action="Edit" class="btn btn-warning" asp-route-id="@item.JogoId">Editar</a> |
+                            <a asp-action="Details" class="btn btn-success" asp-route-id="@item.JogoId">Detalhes</a> |
+                            <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.JogoId">Deletar</a>
+                        </td>
+                    </tr>
+                </div>
+            </div>
+        </div>
+
+    }
+</div>

@@ -1,0 +1,30 @@
+@model IEnumerable<_20___Atividade_CRUD.Models.Carro>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="text-center">Carros</h1>
+
+<div class="row d-flex flex-wrap gap-4 justify-content-center mt-3">
+    @foreach (var item in Model)
+    {
+        <div class="col-12 col-lg-3 border border-2 border-black rounded">
+            <div class="card">
+                <img class="card-img-top" src="@Html.DisplayFor(modelItem => item.Imagem)" alt="Imagem de capa do card">
+                <div class="card-body text-center">
+                    <h5 class="card-title fs-3 fw-bold">@Html.DisplayFor(modelItem => item.Nome)</h5>
+                    <p class="card-text">@Html.DisplayFor(modelItem => item.Descricao)</p>
+                    <tr>
+                        <td>
+                            <a asp-action="Edit" class="btn btn-transparent border border-2 border-black" asp-route-id="@item.CarroId">Editar</a> |
+                            <a asp-action="Details" class="btn btn-transparent border border-2 border-black" asp-route-id="@item.CarroId">Detalhes</a> |
+                            <a asp-action="Delete" class="btn btn-transparent border border-2 border-black" asp-route-id="@item.CarroId">Deletar</a>
+                        </td>
+                    </tr>
+                </div>
+            </div>
+        </div>
+
+    }
+</div>
